@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Login Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Login Test is a React application featuring a simple landing page and a user dashboard intended for interacting with Smart Contracts on the Stacks chain to claim NFTs. The primary goal of this project is to explore the interoperability between a React application and a Smart Contract written in Clarity. Additionally, it aims to identify any potential issues, bugs, or areas for improvement in this interaction.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The application consists of two main components:
+- **Landing Page:** Provides a basic user interface to initiate the login process.
+- **User Dashboard:** Offers a simplified dashboard interface for users to interact with and claim NFTs on the Stacks chain.
 
-### `npm start`
+## Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Testing Clarity Smart Contracts
+The primary objective is to test the integration of Smart Contracts written in Clarity with a React-based frontend application. This includes assessing functionalities related to NFT claims and verifying the seamless interaction between the frontend and the Stacks blockchain.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Identifying Issues and Improvements
+The project aims to identify any potential issues, bugs, or limitations encountered during the interaction between the React app and the Smart Contracts. Additionally, it seeks to highlight areas for improvement, whether in code structure, contract functionality, or user experience.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+- Clone the repository.
+- Install dependencies using `npm install`.
 
-### `npm run build`
+### Running the Application
+1. **Start the Development Server:**
+   ```bash
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Access the Application:
+Open your web browser and go to http://localhost:3000 to access the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Verification Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Landing Page
+Upon accessing http://localhost:3000, you'll see the landing page with a "Log In" button.
+Click the "Log In" button to navigate to the user dashboard.
 
-### `npm run eject`
+## User Dashboard
+In the user dashboard, interact with the provided functionalities to simulate claiming an NFT.
+Verify that the interactions perform as expected and the user flow is intuitive.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+Contributions are welcome! Feel free to fork the repository, make improvements, and create pull requests.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+This project is licensed under MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+Special thanks to the Stacks community and contributors for their resources, which have been invaluable in understanding Clarity Smart Contracts and blockchain integration.

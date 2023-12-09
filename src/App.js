@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import LandingPage from './landingPage';
+import Dashboard from './dashboard';
 
-function App() {
+const App = () => {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [showDashboard, setShowDashboard] = useState(false);
+
+  const handleLogin = () => {
+    // Simulating login process
+    setLoggedIn(true);
+    setShowDashboard(true);
+  };
+
+  const handleClaimNFT = () => {
+    // Simulating NFT claim process
+    alert('NFT claimed! (Mock-up)');
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {!loggedIn && <LandingPage handleLogin={handleLogin} />}
+      {loggedIn && showDashboard && <Dashboard handleClaimNFT={handleClaimNFT} />}
     </div>
   );
-}
+};
 
 export default App;
