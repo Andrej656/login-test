@@ -1,0 +1,27 @@
+/* LandingPage.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F8EDEB; /* Soft background color */
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #E87C7C; /* Retro red button color */
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #BF1818; /* Darker red on hover */
+  }
+  
+  

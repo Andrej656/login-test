@@ -1,0 +1,26 @@
+/* Dashboard.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #C6E2E9; /* Soft blue background for Dashboard */
+  }
+  
+  .claim-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 2px solid #4286f4; /* Retro border style */
+    background-color: transparent;
+    color: #4286f4;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .claim-button:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #4286f4; /* Change background on hover */
+  }
