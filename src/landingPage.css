@@ -6,15 +6,15 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #F8EDEB; /* Soft background color */
+    background-color: #14aee1; /* Soft background color */
   }
   
   .login-button {
     padding: 10px 20px;
     font-size: 18px;
     border: none;
-    background-color: #E87C7C; /* Retro red button color */
-    color: #fff;
+    background-color: #e81919; /* Retro red button color */
+    color: #db2121;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;

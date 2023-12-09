@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #C6E2E9; /* Soft blue background for Dashboard */
+    background-color: #1985a0; /* Soft blue background for Dashboard */
   }
   
   .claim-button {
@@ -21,6 +21,6 @@
   }
   
   .claim-button:hover {
-    color: #fff; /* Change text color on hover */
+    color: #100f0f; /* Change text color on hover */
     background-color: #4286f4; /* Change background on hover */
   }
